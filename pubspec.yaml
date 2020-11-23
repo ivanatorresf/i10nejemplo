@@ -31,8 +31,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_localizations:
-    sdk: flutter
+  flutter_localizations: #se agregan estas dos lineas
+    sdk: flutter         #linea 2
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -74,4 +74,4 @@ flutter_intl:
   enabled: true
 
   main_locale: es #localizacion regional principal
-  class_name: S
+  class_name: S   #add linea

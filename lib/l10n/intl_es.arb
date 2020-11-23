@@ -1,4 +1,5 @@
 {
-    "flutterDemo": "Página de inicio",
-    "Youhavepushed": "Has pulsado el botón tantas veces:"
+    "flutterDemo": "Página de inicio", 
+    "Youhavepushed": "Has pulsado el botón tantas veces:",
+    "__commentarios": "estas dos lineas de arriba se agregan para cambio de lenguaje"
 }

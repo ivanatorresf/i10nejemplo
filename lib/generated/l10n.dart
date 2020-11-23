@@ -54,6 +54,16 @@ class S {
       args: [],
     );
   }
+
+  /// `estas dos lineas de arriba se agregan para cambio de lenguaje`
+  String get __commentarios {
+    return Intl.message(
+      'estas dos lineas de arriba se agregan para cambio de lenguaje',
+      name: '__commentarios',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

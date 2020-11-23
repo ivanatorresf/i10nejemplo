@@ -22,6 +22,7 @@ class MessageLookup extends MessageLookupByLibrary {
   final messages = _notInlinedMessages(_notInlinedMessages);
   static _notInlinedMessages(_) => <String, Function> {
     "Youhavepushed" : MessageLookupByLibrary.simpleMessage("Has pulsado el botón tantas veces:"),
+    "__commentarios" : MessageLookupByLibrary.simpleMessage("estas dos lineas de arriba se agregan para cambio de lenguaje"),
     "flutterDemo" : MessageLookupByLibrary.simpleMessage("Página de inicio")
   };
 }
